@@ -10,27 +10,41 @@
     <h1 id="title">Mokone Ltd Survey Form</h1>
     <p id="description">This is the form designed to collect user experience with our companiy</p>
     <form action="" id="survey-form">
-        <label for="name" id="name-label">Name</label>
+        <label for="name" id="name-label">Name: </label><br>
         <input type="text" id="name" placeholder="enter your name" required><br>
-        <label for="email" id="email-label">Email</label>
+        <label for="email" id="email-label">Email:</label><br>
         <input type="email" id="email" placeholder="enter your valid email" required><br>
-        <label for="" id="number-label" aria-placeholder="numbers are required">Number</label>
-        <input type="number" id="number" placeholder="enter your number" min="2" max="50"><br>
-        <select name="" id="dropdown" >
+        <label for="" id="number-label" aria-placeholder="numbers are required">Number:</label><br>
+        <input type="number" id="number" placeholder="number" min="2" max="50"><br>
+        <select name="" id="dropdown" ><br>
             <option value="option1">
-                <input type="radio">
+                Fast Service
             </option>
             <option value="option2">
-                <input type="radio">
+                Cheap Prices
             </option>
-        </select>
-
-            <input type="checkbox" value="checkbox1">
-            <input type="checkbox" value="checkbox2">
-            <input type="checkbox" value="checkbox3">
-            <input type="checkbox" value="checkbox4">
-            <input type="checkbox" value="checkbox5">
-            <input type="textarea" id="comment">
+            <option value="option2">
+                Best Engineers
+            </option>
+            <option value="option2">
+                Customer Satisfaction
+            </option>
+            <option value="option2">
+                Location
+            </option>
+            <option value="option2">
+                Accessibility
+            </option>
+        </select><br>
+        <input type="radio">
+        <input type="radio">
+        <h5 id="different">What can we do better(select all that apply)</h5>
+            <input type="checkbox" value="checkbox1">Customer Service<br>
+            <input type="checkbox" value="checkbox2">Product Prices<br>
+            <input type="checkbox" value="checkbox3">Delivery Time<br>
+            <input type="checkbox" value="checkbox4">Risk Management<br>
+            <input type="checkbox" value="checkbox5">Response <br>
+            <input type="textarea" id="comment"><br>
             <button id="submit" type="submit">Submit</button>
     </form>
 </body>
